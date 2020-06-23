@@ -15,9 +15,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 parent_path = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
 parent_path = os.path.abspath(os.path.join(parent_path, os.pardir))
-GT_PATH = os.path.join(parent_path, 'input','ground-truth')
-DR_PATH = os.path.join(parent_path, 'input','detection-results')
-
+GT_PATH = '/content/drive/My Drive/ground-truth'
+DR_PATH = '/content/drive/My Drive/detection-results'
 backup_folder = 'backup_no_matches_found' # must end without slash
 
 os.chdir(GT_PATH)
